@@ -1,0 +1,6710 @@
+
+/*********************************************
+GENERAL
+*********************************************/
+
+
+body {
+  z-index: 0;
+}
+
+body.white-background {
+  background-color: white; 
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%; 
+}
+
+
+body.image-background {
+  background-color: #4773f8;
+  background-image: url("img/bg_1_2.jpg");
+  background-repeat:no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+  overflow-x:hidden; 
+}
+
+body.image-background2 {
+  background-color: #ffffff;
+  background-repeat:no-repeat;
+  height: 100vh;
+  background-size: 100%;
+  overflow-x:hidden; 
+}
+
+
+
+/*********************************************
+HEADING
+*********************************************/
+
+header {
+  position: fixed;
+  width: 100%; 
+  background-color: #000000;
+  z-index:110;  
+  border-bottom:1px solid #393939;
+}
+  
+header-transparent {
+  width: 100%; 
+  position: fixed;
+  background-color: #ffffff;
+  z-index:10;
+}
+
+#header-nav {
+  display: inline-block;
+  float: right;  
+}
+
+#header-nav ul{
+  display: inline-block;
+  float: right;
+  padding-right:40px;
+}
+
+#header-nav li{
+  display: inline-block;
+  padding-right:20px;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+#header-nav a{
+  display:block;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto; 
+  padding: 0 5%;
+  }
+
+#navigation {
+  margin-top: 40px;   
+}
+
+#navigation ul {
+  padding-top: 75px; 
+  margin-top:35px;
+}
+
+/************
+logo 
+************/
+
+.logo {
+  display: inline-block;
+  float:left;
+  margin-top: 0;
+  padding: 6px 0  4px 25px; 
+}
+
+.logo-index {
+  display: inline-block;
+  float:left;
+  margin-top: 0;
+  padding: 20px 0  4px 25px; 
+}
+
+
+.logo-sidebar {
+  display: inline-block;
+  float:left;
+  padding: 6px 0  4px 25px;   
+}
+
+
+
+
+/*********************************************
+INDEX - title, text & paragraph
+*********************************************/
+
+
+h1 {
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;
+  color: #D7DF23;
+  border-bottom: 50px solid white;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  padding-top: 3%;
+  padding-left: 30%;
+  padding-left: 20%;
+  width: 100vw;
+  margin-bottom: 2%;
+}
+
+ p1 {  
+  font-size: 0.9em;
+  text-align: left;
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 30%;
+  width: 650px;
+  line-height: 23px;
+  font-size: 0.8em;
+}
+
+#wrapper-main{
+  position:relative;
+  padding-top: 80px; 
+}
+
+#wrapper-main2{
+  position:relative;
+  padding-top: 80px; 
+}
+
+p1-main {
+  text-align: left;
+  color: #000000;
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 150px;
+  width: 650px;
+  line-height: 23px;
+  font-size: 0.8em;
+}
+
+ p1-main2 {
+  font-size: 0.9em;
+  text-align: left;
+  color: #000000;
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 150px;
+  width: 650px;
+  line-height: 23px;
+  font-size: 0.8em;
+}
+
+ p1-main3 {  
+  font-size: 0.9em;
+  text-align: left;
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 150px;
+  width: 650px;
+  line-height: 23px;
+  font-size: 0.8em;
+}
+
+.contact-info li {
+  text-align: left;
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 40%;
+  padding-top: 150px;
+  width: 550px;
+}
+
+#main3 a{  
+  font-size: 0.9em;
+  text-align: left;
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 40%;
+  padding-top: 150px;
+  width: 500px;
+}
+
+
+/************************ 
+INDEX - navigation
+************************/
+
+.nav {
+  display: inline-block;
+  padding-left: 20%;
+  margin-top: 3%;
+}
+
+nav {
+  text-align: left;
+}
+
+nav ul { 
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+nav a {
+  font-size: 0.9em;
+  font-weight: 400; 
+  display:block;
+}
+
+footer-index {
+  
+  position: fixed;
+  right: 50px;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+footer-index p{
+  font-size:0.8em;
+  color: #ffffff;
+}
+
+footer-reguli {
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+footer-reguli p{
+  font-size:0.8em;
+  color: #000000;
+}
+
+footer-downloads {
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+footer-downloads p{
+  font-size:0.8em;
+  color: #000000;
+}
+
+
+footer-ghid {
+  clear:both;
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  background-color: #ffffff;
+  text-align: right;
+  padding-right: 5%;
+}
+
+footer-ghid p{
+  font-size:0.8em;
+  color: #000000;
+}
+
+
+
+.all-ghid {
+  position:relative;
+  height:100%;
+}
+
+.all-index {
+  position:relative;
+  height:100%;
+}
+
+footer-contact {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer-contact p{
+  font-size:0.8em;
+  color: #ffffff;
+}
+
+
+
+
+/************************ 
+SIDEBAR
+************************/
+
+#wrapper-sidebar {
+  width: 300px;
+  background-color: #000000;
+  position: fixed;
+  height: 100vh;
+  left: 0; 
+  font-size: 0.9em;
+  z-index: 10;
+}
+
+#navigation ul {
+  list-style: none;
+  padding: 0;
+  color: #E6E7E8;
+  line-height: 1.5;
+  padding-left: 8px;
+  }
+
+.list a {
+  color: #E6E7E8;
+  margin-left: 42px; 
+  font-weight: 600;
+}
+
+.sublist a {
+  font-size: 0.9em;
+  font-weight: 200;
+  margin-left: 42px;
+  color: #E6E7E8;
+}
+
+.list-only a{
+  font-weight: 600;
+  color: #E6E7E8;
+  margin-left: 20px;
+}
+
+li.list-only {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li.list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/************************ 
+SECTIONS
+************************/
+
+
+#sections {
+  position: absolute;
+  top: 66px;
+  left:0;
+}
+
+#concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {
+  padding-bottom: 40%;
+  position: relative;
+  padding-top: 100px;
+}
+
+#concept {
+  margin-bottom: 100px;
+}
+
+#proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #exemple-materiale, #papetarie {
+  clear: both;
+  top: -100px;
+  position: relative;
+  padding-top: 100px;
+}
+
+#fotografia-de-articol{
+  padding-bottom: 45%;
+  clear:both;
+}
+
+
+#fotografia-folosita-in-promovare {
+  clear:both;
+  display:block;
+  clear:both;
+}
+
+#elemente-grafice-terenul{
+  padding-bottom: 45%;
+  clear:both;
+}
+
+#familia-secundara{
+  padding-bottom: 30%;
+}
+
+#materiale-fara-fotografie
+{
+  padding-bottom: 45%;
+}
+
+#LOGO, #CROMATICA, #FONTURI, #STIL-VIZUAL, #EXEMPLE {
+  clear: both;
+  padding-top: 65px;
+}
+
+#LOGO{
+  padding-bottom:100px;
+}
+
+#CONTACT {
+  height: 500px;
+}
+
+#LOGO
+{
+  clear: both;
+}
+
+ul#slide {
+  padding-bottom: 45px;
+}
+
+ul#slide-whole {
+  padding-bottom: 45px;
+  clear:both;
+  display:inline-block;
+}
+
+
+/************************ 
+title, subtitle and lines
+************************/
+
+.TOP {
+  width:90%;
+  position:relative;
+  height:67px;
+}
+
+.TOP-left {
+  float:left; 
+}
+
+.TOP-right {
+  float:right;
+  display: inline-block;
+  padding-top:  23px;
+}
+
+.TOP-right p {
+  color: #A6A8AB;
+  margin:0;
+  padding-left:10px;
+  padding-top:4px;
+}
+
+.TOP-right img {
+  width: 25px;
+}
+
+p.slide-title {
+  margin: 0;
+  color: #A6A8AB;
+}
+
+p.slide-subtitle {
+  color: #2459ED;   
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin: 0; 
+}
+
+.black-line {
+  clear:both;
+  padding-top: 30px;    
+  width: 90%;
+  border-top:1px solid #E0E0E0;
+}
+
+.menu-line {
+  padding-top: 0px;    
+  margin-top:10px;
+  margin-left: 42px;
+  margin-right: 42px;
+  border-top:1px solid #393939;
+}
+
+
+
+
+/************************ 
+slide after title on slides
+************************/
+  
+.yellow-line {
+  padding-top: 30px;     
+  width: 20px;
+  border-top:8px solid #D7DF23;
+}
+
+#slide {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  list-style: none;
+  float: left;
+  width:100%;
+ }
+
+#slide-huge{
+  max-height: 10px; 
+}
+
+/************************ 
+slide columns
+************************/
+
+
+ul.left-ul {
+  float:left;
+  width:100%;
+  max-width: 100%;
+  color: #ffffff; 
+  padding-left: 0;
+}
+
+li.left {
+  float:left;
+  left: 300px;
+  width:25%;
+  max-width: 25%; 
+  color: #ffffff; 
+  padding-right: 5%;
+}
+
+
+li.left-li {
+  display: block;
+  color: #ffffff; 
+  text-decoration: none;
+}
+
+img .right {
+  max-width: 100%;
+  width: 100%;
+}
+
+li.right {
+  float: left;
+  display: inline-block;
+  width: 60%;
+  max-width: 60%;
+  color: #ffffff;
+  right: 5%;
+}
+
+.whole a{
+  margin-top: 10px;
+  max-width: 90%;
+  margin-bottom: 50px;  
+}
+
+
+.whole img{
+  clear:both;
+  display: inline-block;   
+}
+
+li.whole {  
+  clear:both;
+  display: inline-block; 
+}
+
+#slide li p {
+  margin: 0;
+  font-size: 0.80em; 
+  color: #000000;
+  line-height: 23px;
+}
+
+
+#slide-thumb {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-top: 165px;
+  list-style: none;
+  float: left;
+  display: inline-block;
+  width:80vw;
+  max-width:70vw; 
+}
+
+.end-line {
+  clear: both;
+  width: 90%;
+  border-top:1px solid #E0E0E0;
+}
+
+
+#slide-thumb li {
+  display: inline-block;
+  float:left;
+  padding-right: 50px;  
+  padding-bottom: 50px;
+}
+
+.slide-h1 {
+  color: #2459ED;   
+  padding-top: 10px;
+  font-size: 3em;
+  font-weight: 800;
+  padding-bottom: 25px;  
+}
+
+.thumb img {
+  max-width: 300px;
+  width: 250px;
+}
+
+.thumb a {
+  max-height: 160px;
+  height:160px;
+}
+
+.thumb p {
+  color: #000000; 
+  margin: 0;
+  line-height: 23px;
+  padding-top: 23px;
+  font-size: 0.8em;
+  max-width: 200px;
+  width:200px;
+  margin: 0;
+}
+
+
+#s-logo {
+  display: inline-block;
+  float: clear;  
+  width: 95%; 
+  list-style: none;
+  z-index: 5;  
+}
+
+h1-logo {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;  
+  color: #D7DF23;
+  border-bottom: 50px solid #2459ED;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  right:0;
+  left: 300px;
+  margin:0;
+  padding-left: 100px;
+  margin-bottom: 7%;
+  margin-top: 4%;
+  width: calc(100vw - 417px);  
+}
+
+#s-cromatica {
+  display: inline-block;
+  float: clear;  
+  height: 200px;
+  width: 90%; 
+  list-style: none;
+  z-index: 5;  
+}
+
+
+h1-cromatica {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;  
+  color: #D7DF23;
+  border-bottom: 50px solid #2459ED;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  right:0;
+  left: 300px;
+  margin:0;
+  padding-left: 100px;
+  width: calc(100vw - 417px);
+  margin-top: 4%;
+}
+
+
+#s-fonturi {
+  display: inline-block;
+  float: clear;  
+  height: 200px;
+  width: 90%; 
+  list-style: none;
+  z-index: 5;  
+}
+
+
+h1-fonturi {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;  
+  color: #D7DF23;
+  border-bottom: 50px solid #2459ED;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  right:0;
+  left: 300px;
+  margin:0;  
+  padding-left: 100px;
+  width: calc(100vw - 417px);
+  margin-top: 4%;
+}
+
+
+
+#s-stil {
+  display: inline-block;
+  float: clear;  
+  height: 200px;
+  width: 100%; 
+  list-style: none;
+  z-index: 5;  
+}
+
+
+h1-stil {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;  
+  color: #D7DF23;
+  border-bottom: 50px solid #2459ED;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  right:0;
+  left: 300px;
+  margin:0;  
+  padding-left: 100px;
+  width: calc(100vw - 417px);
+  margin-top: 4%;
+}
+
+
+#s-exemple {
+  display: inline-block;
+  float: clear;  
+  height: 200px;
+  width: 90%; 
+  list-style: none;
+  z-index: 5;  
+}
+
+
+h1-exemple {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;  
+  color: #D7DF23;
+  border-bottom: 50px solid #2459ED;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  right:0;
+  margin:0;
+  left: 300px;
+  padding-left: 100px;
+  padding-right: 0%;
+  width: calc(100vw - 417px);
+  margin-top: 4%;
+}
+
+
+
+h1-main {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;
+  color: #2459ED;
+  border-bottom: 50px solid #D7DF23;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  padding-top: 50px;
+  max-width: 100%;
+  width:100%;
+  padding-left: 20%;
+  left:0;
+  right:0;
+  margin-bottom: 2%;
+  margin:auto;  
+  z-index: 9;
+}
+
+h1-main2 {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;
+  color: #2459ED;
+  border-bottom: 50px solid #D7DF23;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  padding-top: 50px;
+  max-width: 100%;
+  width:100%;
+  padding-left: 20%;
+  left:0;
+  right:0;
+  margin-bottom: 2%;
+  margin:auto;
+  z-index: 9;
+}
+
+
+
+h1-main3 {
+  position:absolute;
+  font-size: 7em;
+  font-weight: 600;
+  text-align: left;
+  color: #D7DF23;
+  border-bottom: 50px solid white;
+  line-height: 10%;
+  overflow: visible;
+  display: inline-block;
+  padding-top: 50px;
+  max-width: 100%;
+  width:100%;
+  padding-left: 20%;
+  left:0;
+  right:0;
+  margin-bottom: 2%;
+  margin:auto;
+  z-index: 9;
+}
+
+
+
+
+
+/*********************************************
+COLOURS
+*********************************************/
+
+
+body {
+  background-color:  white;
+  color: #000000;
+  position: relative;
+}
+
+nav li {
+  background: #D7DF23;
+}
+
+a {
+  color: #ffffff;
+  display:block;
+}
+
+nav a {       
+  color: #000000;  
+}
+
+nav a.selected, nav a:hover {
+  background: #ffffff;
+}
+
+
+footer-index a:hover{
+  text-decoration: underline;
+     
+}
+
+footer-reguli a:hover{
+  text-decoration: underline;
+  color: #000000;
+}
+
+footer-downloads a:hover{
+  text-decoration: underline;
+  color: #000000;
+}
+
+footer-ghid a:hover{
+  text-decoration: underline;
+  color: #000000;
+}
+
+#wrapper-sidebar li.main-list:hover, li.list:hover, li.sublist:hover, li.list-only:hover {        
+  background-color: #515151;
+
+}
+
+.contact-info li a:hover {
+  color: #D7DF23;
+}
+
+#slide-thumb img:hover {
+  opacity: 0.7;
+  transition: all 0.1s linear;
+}
+
+
+
+/****** for scrollbar ******/
+
+
+.scrollbar
+{
+	
+	float: left;
+	height: 87vh;
+	width: 300px;
+	background: #000000;
+	overflow-y: scroll;
+  bottom:0;
+	
+}
+
+
+
+#navigation::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: #000000;
+}
+
+#navigation::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #000000;
+}
+
+#navigation::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #E0E0E0;
+}
+
+
+
+
+/******************************
+SLIDES
+*******************************/
+
+#slides{
+  position: absolute;
+  top: 0;
+}
+
+.slide {
+  height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed black;
+}
+
+
+#move {
+  position: absolute;
+  left: 400px;  
+  right:0;
+}
+
+#CROMATICA {
+  clear:both;
+  margin-bottom:0;
+}
+
+
+
+
+
+
+/*********************************************
+media queries
+*********************************************/
+
+
+/*********---------
+min-width: 0
+max-width: 900px
+---------*********/
+
+/********** slides ************/
+
+@media only screen and (min-width: 0px) 
+    and (max-width: 900px) {
+  
+  #slide li {
+    width: 90%;
+    max-width: 100%;
+    clear:both;
+    padding-right: 1%;  
+  }
+
+  #slide li p{
+    padding-bottom: 23px;
+  }
+      
+  
+
+  
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {  
+    padding-bottom: 70%;
+    position: relative;
+    padding-top: 100px;
+  }
+    
+ #concept{
+     padding-top: 55px;
+   }
+      
+ #move{
+    position: absolute;
+    left: 400px;
+  }
+  
+}
+
+
+/*********---------
+min-width: 901px
+max-width: 930px
+---------*********/
+
+/********** slides ************/
+
+@media only screen and (min-width: 901px) 
+    and (max-width: 930px) {
+  
+  #slide li {
+    width: 90%;
+    max-width: 100%;
+    clear:both;
+    padding-right: 1%;  
+  }
+  
+  #slide li p{
+    padding-bottom: 23px;
+  }
+      
+  
+
+  
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {  
+    padding-bottom: 64%;
+    position: relative;
+    padding-top: 100px;
+  }
+    
+ #LOGO {
+    padding-bottom: 110px;
+ }
+  
+ #variante-principale {
+    padding-bottom: 61%;
+ }   
+ 
+ #variante-monocrome {
+    padding-bottom: 60%;
+ }   
+  
+ #paleta-principala {
+    padding-bottom: 71%;
+ }  
+ 
+ #paleta-secundara {
+    padding-bottom: 72%;
+ }  
+ #restrictii {
+    padding-bottom: 58%;
+ }    
+  
+ #familia-principala {
+    padding-bottom: 68%;
+ }
+  
+  
+ #familia-secundara {
+    padding-bottom: 57%;
+ }
+  
+ #elemente-grafice-terenul {
+    padding-bottom: 68%;
+ }
+  
+ #fotografia-de-articol {
+    padding-bottom: 72%;
+ } 
+  
+ #fotografia-folosita-in-promovare {
+    padding-bottom: 61%;
+ } 
+  
+
+ #materiale-de-comunicare {
+    padding-bottom: 67%;
+ }    
+ 
+ #materiale-cu-fotografie {
+    padding-bottom: 60%;
+ }   
+  
+ #move{
+    position: absolute;
+    left: 400px;
+ }
+  
+}
+
+
+
+/*********---------
+min-width: 931px
+max-width: 999px
+---------*********/
+
+/********** slides ************/
+
+@media only screen and (min-width: 931px) 
+    and (max-width: 999px) {
+  
+  #slide li {
+    width: 90%;
+    max-width: 100%;
+    clear:both;
+    padding-right: 1%;  
+  }
+  
+  #slide li p{
+    padding-bottom: 23px;
+  }
+      
+  
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {  
+    padding-bottom: 64%;
+    position: relative;
+    padding-top: 100px;
+  }
+    
+ #LOGO {
+    padding-bottom: 110px;
+
+ }
+  
+ #variante-principale {
+    padding-bottom: 61%;
+ }   
+ 
+ #variante-monocrome {
+    padding-bottom: 60%;
+ }   
+  
+ #paleta-principala {
+    padding-bottom: 71%;
+ }  
+ 
+ #paleta-secundara {
+    padding-bottom: 72%;
+ }  
+ #restrictii {
+    padding-bottom: 58%;
+ }    
+  
+ #familia-principala {
+    padding-bottom: 68%;
+ }
+  
+ #familia-secundara {
+    padding-bottom: 57%;
+ }
+  
+ #elemente-grafice-terenul {
+    padding-bottom: 68%;
+ }
+  
+ #fotografia-de-articol {
+    padding-bottom: 72%;
+ } 
+  
+ #fotografia-folosita-in-promovare {
+    padding-bottom: 61%;
+ }   
+
+ #materiale-de-comunicare {
+    padding-bottom: 67%;
+ }    
+ 
+ #materiale-cu-fotografie {
+    padding-bottom: 76%;
+ }     
+  
+ #materiale-fara-fotografie {
+    padding-bottom: 75%;
+ } 
+  
+ #move{
+    position: absolute;
+    left: 400px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+/*********---------
+min-width: 901px
+max-width: 1000px
+---------*********/
+
+
+/********** slides ************/
+
+@media only screen and (min-width: 901px) 
+    and (max-width: 1000px) {
+  
+   #concept{
+     padding-top: 75px;
+   }
+}
+
+
+
+/*********---------
+min-width: 1000px
+max-width: 1099px
+---------*********/
+
+/********** slides ************/
+
+@media only screen and (min-width: 1000px) 
+    and (max-width: 1099px) {
+  
+  #slide li.left {
+    width: 90%;
+    max-width: 100%;
+  }
+  
+  #slide li p {
+    padding-bottom: 23px;
+  }
+
+  .hidden p {
+    color: white;
+    font-size:0.1em;
+    width:5%;
+  }
+
+  #slide {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;  
+  }
+    
+  #slide li p {
+    margin: 0;
+    font-size: 0.80em; 
+    color: #000000;
+    line-height: 23px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  p.hidden{
+    color: white;
+  }
+      
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #materiale-cu-fotografie  {
+    
+    padding-bottom: 60%;
+    position: relative;
+    padding-top: 100px;
+  }    
+  
+  #concept {
+    padding-bottom: 53%;
+  } 
+  
+  #proportii {
+    padding-bottom: 50%;
+  } 
+  
+  #variante-principale {
+    padding-bottom: 50%;
+  }  
+  
+  #varianta-secundara {
+    padding-bottom: 50%;
+  }  
+  
+  #variante-monocrome {
+    padding-bottom: 48%;
+  }  
+  
+  #spatiul-de-siguranta {
+    padding-bottom: 48%;
+  }   
+  
+  #dimensiunea-minima {
+    padding-bottom: 50%;
+  }   
+
+  #interdictii {
+    padding-bottom: 55%;
+  }
+  
+  #paleta-principala {
+    padding-bottom: 55%;
+  }
+  
+  #paleta-secundara {
+    padding-bottom: 55%;
+  }
+  
+  #restrictii {
+    padding-bottom: 45%;
+  }
+  
+  #familia-principala {
+    padding-bottom: 55%;
+  }
+
+  #familia-secundara {
+    padding-bottom: 43%;
+  }
+
+  #elemente-grafice-terenul  {
+    padding-bottom: 55%;
+  }
+  
+  #fotografia-folosita-in-promovare {
+    padding-bottom: 50%;
+  }   
+  
+  #fotografia-de-articol {
+    padding-bottom: 58%;
+  }   
+  
+  #materiale-de-comunicare {
+    padding-bottom: 51%;
+  }   
+  
+  #move{
+    position: absolute;
+    left: 400px;
+  }
+  
+  
+}
+
+
+
+
+/*********---------
+min-width: 1100px
+max-width: 1150px
+---------*********/
+
+/********** slides ************/
+  
+@media only screen and (min-width: 1100px) 
+    and (max-width: 1150px) {
+
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {
+    padding-bottom: 45%;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  
+  #concept {
+    padding-bottom: 48%;
+  }
+  
+  #proportii {
+    padding-bottom: 40%;
+  }
+  
+  #variante-principale {
+    padding-bottom: 37%;
+  }
+  
+  #varianta-secundara {
+    padding-bottom: 42%;
+  }   
+  
+  #variante-monocrome {
+    padding-bottom: 37%;
+  }   
+  
+  #spatiul-de-siguranta {
+    padding-bottom: 37%;
+  }   
+  
+  #dimensiunea-minima {
+    padding-bottom: 37%;
+  }
+  
+  #interdictii {
+    padding-bottom: 37%;
+  }  
+  
+  #paleta-principala {
+    padding-bottom: 46%;
+  } 
+
+  #restrictii {
+    padding-bottom: 36%;
+  } 
+  
+  #familia-principala {
+    padding-bottom: 50%;
+  } 
+    
+  #familia-secundara {
+    padding-bottom: 38%;
+  } 
+    
+  #elemente-grafice-terenul {
+    padding-bottom: 63%;
+  }
+  
+  #fotografia-de-articol  {
+    padding-bottom: 65%;
+  }
+
+  #fotografia-folosita-in-promovare  {
+    padding-bottom: 38%;
+  }
+  
+  #materiale-de-comunicare{
+    padding-bottom: 41%;
+  }
+  
+  #materiale-cu-fotografie{
+    padding-bottom: 54%;    
+  }
+  
+  #materiale-fara-fotografie {
+    padding-bottom: 66%;
+  }
+  
+  #move{
+    position: absolute;
+    left: 400px;
+  }
+    
+ .hidden  {
+    color: blue;
+    font-size:0.1em;
+    width:5%;
+    visibility: hidden;
+  }
+}
+  
+  
+
+
+/*********---------
+min-width: 1151px
+max-width: 1200px
+---------*********/
+
+/********** slides ************/
+  
+@media only screen and (min-width: 1151px) 
+    and (max-width: 1200px) {
+
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {
+    padding-bottom: 38%;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  #concept{
+    padding-bottom: 44%;
+  }
+  
+  #proportii{
+    padding-bottom: 37%;
+  }
+
+  #variante-principale {
+    padding-bottom: 36%;
+  }
+  
+  #varianta-secundara {
+    padding-bottom: 39%;
+  }   
+  
+  #variante-monocrome {
+    padding-bottom: 36%;
+  }   
+  
+  #spatiul-de-siguranta {
+    padding-bottom: 35%;
+  }   
+  
+  #dimensiunea-minima {
+    padding-bottom: 35%;
+  }
+  #interdictii {
+    padding-bottom: 35%;
+  }  
+  
+  #paleta-principala {
+    padding-bottom: 43%;
+  }
+  
+  #paleta-secundara {
+    padding-bottom: 43%;
+  } 
+  
+  #restrictii {
+    padding-bottom: 33%;
+  } 
+  
+  #familia-principala {
+    padding-bottom: 46%;
+  } 
+  
+  #familia-secundara {
+    padding-bottom: 33%;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-bottom: 58%;
+  }
+  
+  #fotografia-de-articol  {
+    padding-bottom: 59%;
+  }
+  
+  #materiale-de-comunicare{
+    padding-bottom: 39.5%;
+  }
+  
+  #materiale-cu-fotografie{
+    padding-bottom: 48.5%;
+  }
+  
+  #materiale-fara-fotografie {
+    padding-bottom: 60%;
+  }
+  
+  #move{
+    position: absolute;
+    left: 400px;
+  }
+    
+ .hidden  {
+    color: blue;
+    font-size:0.1em;
+    width:5%;
+    visibility: hidden;
+  }
+}
+
+
+  
+  
+/*********---------
+min-width: 1201px
+max-width: 1250px
+---------*********/
+
+/********** slides ************/
+  
+@media only screen and (min-width: 1201px) 
+    and (max-width: 1250px) {
+  
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {
+    
+    padding-bottom: 38%;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  #concept{
+    padding-bottom: 41%;
+  }
+  
+  #proportii{
+    padding-bottom: 37%;
+  }
+
+  #variante-principale {
+    padding-bottom: 36%;
+  }
+  
+  #varianta-secundara {
+    padding-bottom: 37%;
+  }   
+  
+  #variante-monocrome {
+    padding-bottom: 36%;
+  }   
+
+  #spatiul-de-siguranta {
+    padding-bottom: 37%;
+  }    
+  
+  #dimensiunea-minima {
+    padding-bottom: 37%;
+  }
+  
+  #interdictii {
+    padding-bottom: 31%;
+  }  
+  
+  #paleta-principala {
+    padding-bottom: 40%;
+  }
+  
+  #paleta-secundara {
+    padding-bottom: 40%;
+  } 
+  
+  #restrictii {
+    padding-bottom: 30%;
+  } 
+    
+  #familia-principala {
+    padding-bottom: 42%;
+  } 
+  
+  #familia-secundara {
+    padding-bottom: 31%;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-bottom: 53%;
+  }
+  
+  #fotografia-de-articol  {
+    padding-bottom: 53%;
+  }
+  
+  #fotografia-folosita-in-promovare{
+    padding-bottom: 32%;
+  }
+  
+  #materiale-de-comunicare{
+    padding-bottom: 39.5%;
+  }
+  
+  #materiale-cu-fotografie{
+    padding-bottom: 43%;
+  }
+  
+  #materiale-fara-fotografie {
+    padding-bottom: 53.5%;
+  }
+  
+  #move{
+    position: absolute;
+    left: 400px;
+  }
+    
+ .hidden  {
+    color: blue;
+    font-size:0.1em;
+    width:5%;
+    visibility: hidden;
+  }
+}
+
+
+  
+
+/*********---------
+min-width: 1251px
+max-width: 1300px
+---------*********/
+
+/********** slides ************/
+  
+@media only screen and (min-width: 1251px) 
+    and (max-width: 1300px) {
+
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {
+    
+    padding-bottom: 38%;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  #proportii{
+    padding-bottom: 35%;
+  }
+     
+   #variante-principale {
+    padding-bottom: 35%;
+  }
+  
+  #varianta-secundara {
+    padding-bottom: 35%;
+  }   
+  
+  #variante-monocrome {
+    padding-bottom: 35%;
+  }   
+   
+  #spatiul-de-siguranta {
+    padding-bottom: 35%;
+  }   
+  
+  #dimensiunea-minima {
+    padding-bottom: 35%;
+  }
+    
+  #interdictii {
+    padding-bottom: 31%;
+  }    
+  
+  #paleta-principala {
+    padding-bottom: 37%;
+  }
+  
+  #restrictii {
+    padding-bottom: 30%;
+  } 
+  
+  #familia-principala {
+    padding-bottom: 39%;
+  }
+  
+  #familia-secundara {
+    padding-bottom: 31%;
+  }
+
+  #elemente-grafice-terenul {
+    padding-bottom: 47.5%;
+  }
+  
+  #fotografia-de-articol  {
+    padding-bottom: 49%;
+  }
+  
+  #fotografia-folosita-in-promovare{
+    padding-bottom: 32%;
+  }
+  
+  #materiale-de-comunicare{
+    padding-bottom: 38%;
+  }
+      
+  #materiale-cu-fotografie{
+    padding-bottom: 40%;
+  }
+
+  #materiale-fara-fotografie {
+    padding-bottom: 47%;
+  }
+    
+  #move{
+    position: absolute;
+    left: 400px;
+  }
+    
+ .hidden  {
+    color: blue;
+    font-size:0.1em;
+    width:5%;
+    visibility: hidden;
+  }
+}
+
+
+
+/*********---------
+min-width: 1301px
+max-width: 1360px
+---------*********/
+
+/********** slides ************/
+  
+@media only screen and (min-width: 1301px) 
+    and (max-width: 1360px) {
+
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie {
+    padding-bottom: 40%;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  #concept{
+    padding-bottom: 35%;
+  }
+     
+  #proportii{
+    padding-bottom: 35%;
+  }
+       
+  #variante-principale{
+    padding-bottom: 35%;
+  }
+      
+  #varianta-secundara{
+    padding-bottom: 35%;
+  }
+  
+  #variante-monocrome{
+    padding-bottom: 35%;
+  }      
+
+  #spatiul-de-siguranta{
+    padding-bottom: 35%;
+  }  
+  
+  #dimensiunea-minima{
+    padding-bottom: 35%;
+  }  
+
+  #paleta-principala{
+    padding-bottom: 35%;
+  }  
+
+  #paleta-secundara{
+    padding-bottom: 37%;
+  }  
+
+  #interdictii{
+    padding-bottom: 30%;
+  }
+  
+  #restrictii{
+    padding-bottom: 32%;
+  }
+    
+  #familia-principala{
+    padding-bottom: 36%;
+  }
+  
+  #familia-secundara{
+    padding-bottom: 33%;
+  }
+
+  #elemente-grafice-terenul {
+    padding-bottom: 44%;
+  }
+  
+  #fotografia-de-articol  {
+    padding-bottom: 45%;
+  }
+  
+  #fotografia-folosita-in-promovare  {
+    padding-bottom: 33%;
+  }
+  
+  #materiale-de-comunicare{
+    padding-bottom: 39%;
+  }
+  
+  #materiale-cu-fotografie{
+    padding-bottom: 39%;
+  }
+  
+  #materiale-fara-fotografie {
+    padding-bottom: 46%;
+  }
+  
+  #move{
+    position: absolute;
+    left: 400px;
+  }
+    
+ .hidden  {
+    color: blue;
+    font-size:0.1em;
+    width:5%;
+    visibility: hidden;
+  }
+}
+
+
+  
+
+/*********---------
+max-width : 399px
+---------*********/
+
+/*** index page for mobile ***/
+  
+@media only screen and (max-width : 399px) { 
+  
+  body.image-background {
+    background-color: #4773f8;
+    background-image: url("img/bg_1_2.jpg");
+    background-repeat:no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    overflow-x:hidden;      
+  }
+
+  h1 {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: left;
+    color: #D7DF23;
+    border-bottom: 40px solid white;
+    line-height: 5.5px;
+    overflow: visible;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 100vw;
+    margin-bottom: 2%;
+    max-width:100%;
+ }
+
+ p1 {
+    padding-left: 50px;
+    max-width: 80%;
+    padding-top: 15px;
+    padding-right:0;
+ }
+
+ .nav{
+    padding-left: 15px;
+    max-width: 90%;
+    padding-top: 15px;
+    display:block;
+    margin-bottom: 10px;
+  }
+
+  nav li{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+    
+}
+
+
+
+/*********---------
+min-width : 400px
+max-width : 479px
+---------*********/
+
+/*** index page for mobile ***/
+
+@media only screen and (min-width : 400px)
+   and (max-width : 479px) {
+  
+  
+  body.image-background {
+    background-color: #4773f8;
+    background-image: url("img/bg_1_2.jpg");
+    background-repeat:no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    overflow-x:hidden; 
+  }
+  
+  h1 {
+    font-size: 4em;
+    font-weight: 600;
+    text-align: left;
+    color: #D7DF23;
+    border-bottom: 40px solid white;
+    line-height: 7px;
+    overflow: visible;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 100vw;
+    margin-bottom: 2%;
+    max-width:100%;
+  }
+
+ p1 {
+    padding-left: 50px;
+    max-width: 80%;
+    padding-top: 15px;
+    padding-right:0;
+  }
+  
+  .nav{
+    padding-left: 15px;
+    max-width: 90%;
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  nav li{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right:20px;
+  }
+
+  
+}
+
+
+
+
+/*********---------
+min-width : 480px
+max-width : 610px
+---------*********/
+
+/*** index page for mobile ***/
+  
+@media only screen
+    and (min-width : 480px)
+and (max-width : 610px) {
+
+  body.image-background {
+    background-color: #4773f8;
+    background-image: url("img/bg_1_2.jpg");
+    background-repeat:no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    overflow-x:hidden;      
+  }  
+  
+  h1 {
+    font-size: 5em;
+    font-weight: 600;
+    text-align: left;
+    color: #D7DF23;
+    border-bottom: 40px solid white;
+    line-height: 8px;
+    overflow: visible;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 100vw;
+    margin-bottom: 2%;
+    max-width:100%;
+  }
+
+ p1 {
+    padding-left: 50px;
+    max-width: 80%;
+    padding-top: 15px;
+    padding-right:0;
+  }
+  
+  .nav{
+    padding-left: 15px;
+    max-width: 90%;
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+
+   nav li{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right:20px;
+    margin-left:0;
+  }
+   
+}
+
+  
+    
+  
+
+
+/*********---------
+min-width : 610px
+max-width : 745px
+---------*********/
+
+/*** index page for mobile ***/
+
+@media only screen and (min-width : 610px)
+and (max-width : 745px) {
+ 
+  
+  body.image-background {
+    background-color: #4773f8;
+    background-image: url("img/bg_1_2.jpg");
+    background-repeat:no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    overflow-x:hidden; 
+  }
+   
+  h1 {
+    font-size: 6em;
+    font-weight: 600;
+    text-align: left;
+    color: #D7DF23;
+    border-bottom: 40px solid white;
+    line-height: 9px;
+    overflow: visible;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 75px;
+    width: 100vw;
+    margin-bottom: 2%;
+    max-width:100%;
+  } 
+
+  p1 {
+    padding-left: 75px;
+    max-width: 80%;
+    padding-top: 15px;
+    padding-right:0;   
+  }
+  
+  .nav {
+    padding-left: 15px;
+    max-width: 90%;
+    padding-top: 15px;
+    display:block;
+    margin-bottom: 10px;
+  }
+  
+  nav li {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right:20px;
+  }
+   
+}
+
+
+
+/*********---------
+min-width : 380px
+max-width : 500px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+
+@media only screen and (min-width : 380px)
+and (max-width : 500px) {
+   
+  .logo {
+    padding: 6px 0  4px 10px; 
+  }
+  
+  .logo-sidebar {
+    padding: 6px 0  4px 10px; 
+  }
+  
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 20px;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 9px;
+    top: 50px;
+    width: 100vw;
+    border-bottom: 40px solid #D7DF23;
+  }
+  
+  h1-main3 {
+    border-bottom: 40px solid white;
+  }
+    
+  .contact-info li{
+    clear:both;
+    max-width: 80vw;
+    padding-right: 20%;
+  }
+    
+  p1-main, p1-main2, p1-main3  {
+    padding-top: 80px;
+    padding-left: 20px;
+    width: 80vw;
+  }
+  
+  #slide-thumb {
+    padding-left: 20px;
+  }
+  
+}
+
+
+
+/*********---------
+min-width : 480px
+max-width : 650px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+
+
+@media only screen and (min-width : 480px)
+and (max-width : 650px) {
+ 
+  .logo {
+    padding: 6px 0 4px 10px; 
+  }
+  
+  .logo-sidebar {
+    padding: 6px 0 4px 10px;  
+  }
+  
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 20px;
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 9px;
+    top:  80px;
+    width: 100vw;
+    border-bottom: 40px solid #D7DF23;
+  }
+  
+  p1-main, p1-main2, p1-main3  {
+    padding-top: 110px;
+    padding-left: 20px;
+    width: 80vw;
+  }
+  
+  h1-main3  {
+    border-bottom: 40px solid white;}
+  
+  .contact-info li{
+    clear:both;
+    max-width: 80vw;
+    padding-right: 20%;
+  }
+  
+  #slide-thumb {
+    padding-left: 20px;
+    margin: 0 auto;
+  }
+    
+  #slide-thumb li{
+    padding-right: 30px;
+  }
+    
+}
+
+
+
+
+/*********---------
+min-width : 651px
+max-width : 860px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+
+@media only screen and (min-width : 651px)
+and (max-width : 860px) {
+ 
+  .logo {
+    padding: 6px 0  4px 25px; 
+  }
+  
+  .logo-sidebar {
+    padding: 6px 0  4px 25px; 
+  }
+  
+  h1-main, h1-main2, h1-main3  {
+    padding-left: 20px;
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 9px;
+    top: 100px;
+    width: 100vw;
+    border-bottom: 40px solid #D7DF23;
+  }
+  
+  p1-main, p1-main2, p1-main3  {
+    padding-top: 130px;
+    padding-left: 20px;
+    width: 80vw;
+  }
+  
+  h1-main3 {
+    border-bottom: 40px solid white;
+  }
+    
+  .contact-info li{
+    clear:both;
+    max-width: 80vw;
+    padding-right: 20%;
+  }
+    
+  #slide-thumb {
+    padding-left: 20px;
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 95vw;
+    max-width:95vw;
+  }
+  
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 50px;
+  }
+    
+  p1-main, p1-main2, p1-main3 {
+    padding-left: 50px;
+  }
+    
+  #slide-thumb li{
+    padding-right: 30px;
+  }
+    
+}
+
+
+
+
+
+/*********---------
+min-width: 0px
+max-width : 400px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+/*** header for mobile ***/
+
+@media only screen and (min-width: 0px) 
+and (max-width : 400px) {
+  
+  #header-nav {
+    display: inline-block;
+    float: right;
+  }
+  
+  #header-nav ul{
+    display: inline-block;
+    float: right;
+    padding-right:30px;
+  }
+
+  #header-nav li{
+    display: inline-block;
+    padding-right:10px;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+
+  #header-nav a{
+    display: inline-block;
+  }
+    
+  .thumb img{ 
+    max-width: 300px;
+    width: 250px;
+  }
+  
+  #slide-thumb {
+    width:95vw;
+    max-width:95vw;
+    padding-left: 20px;    
+  }
+ 
+  #slide-thumb li {
+    padding-right: 30px;
+  }
+
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 20px;
+  }
+  
+  p1-main, p1-main2, p1-main3  {
+    padding-left: 20px;
+  }
+}
+  
+  
+
+
+
+
+/*********---------
+min-width: 400px
+max-width : 500px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+/*** header for mobile ***/
+
+
+@media only screen and (min-width: 400px) 
+and (max-width : 500px) {
+  
+  .logo {
+    padding: 6px 0  4px 25px; 
+  }
+ 
+  .logo-sidebar {
+    padding: 6px 0  4px 25px; 
+  }
+
+  #header-nav {
+    display: inline-block;
+    float: right;
+  }
+  
+  #header-nav ul{
+    display: inline-block;
+    float: right;
+    padding-right:30px;
+  }
+  
+  #header-nav li{
+    display: inline-block;
+    padding-right:10px;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+  
+  #header-nav a{
+    display: inline-block;
+  }
+    
+  .thumb img{ 
+    max-width: 300px;
+    width: 250px;
+  }
+    
+  #slide-thumb {
+    width:95vw;
+    max-width:95vw;
+    padding-left: 50px;
+  }
+  
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 50px; 
+  }
+    
+  p1-main, p1-main2, p1-main3 {
+    padding-left: 50px;
+  }
+  
+  #slide-thumb li {
+    padding-right: 30px;
+  }
+
+}
+  
+  
+    
+
+
+
+/*********---------
+min-width : 500px
+max-width : 575px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+/*** header for mobile ***/
+
+@media only screen and (min-width : 500px) 
+and (max-width : 575px) {
+
+  .logo {
+    padding: 6px 0  4px 25px; 
+  }
+  
+  .logo-sidebar {
+    padding: 6px 0  4px 25px;   
+  }
+  
+  #header-nav {
+    display: inline-block;
+    float: right;  
+  }
+  
+  #header-nav ul{
+    display: inline-block;
+    float: right;
+    padding-right:30px;
+  }
+  
+  #header-nav li{
+    display: inline-block;
+    padding-right:10px;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+  
+  #header-nav a{
+    display: inline-block;
+  }
+  
+  #slide-thumb {
+    width:95vw;
+    max-width:95vw;
+    padding-left: 50px;
+  }
+  
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 50px;
+  }
+    
+  p1-main, p1-main2, p1-main3  {
+    padding-left: 50px;
+  }
+
+  #slide-thumb li {
+    padding-right: 30px;
+  }
+}
+
+
+
+/*********---------
+min-width : 527px
+max-width : 575px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+/*** smaller thumbs ***/
+
+@media only screen and (min-width : 527px) 
+and (max-width : 575px) {
+  
+  .thumb img{
+    max-width: 200px;
+    width: 200px;
+  }
+    
+  .thumb a{
+    max-width: 200px;
+    width: 200px;
+    max-height: 125px;
+  }
+}
+  
+  
+
+
+
+
+
+/*********---------
+min-width : 479px
+max-width : 526px
+---------*********/
+
+/*** download page h1 font size ***/
+
+@media only screen and (min-width : 479px) 
+and (max-width : 526px) {
+
+  h1-main2{
+    font-size:3.2em;
+    font-weight: 600;
+  }
+}
+  
+
+
+
+/*********---------
+min-width : 575px
+max-width : 650px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+/*** header for mobile ***/
+
+@media only screen and (min-width : 575px) 
+and (max-width : 650px) {
+  
+  .logo {
+    padding: 6px 0  4px 25px; 
+  }
+  
+  .logo-sidebar {
+    padding: 6px 0  4px 25px;   
+  }
+  
+  #header-nav {
+    display: inline-block;
+    float: right;  
+  }
+  
+  #header-nav ul{
+    display: inline-block;
+    float: right;
+    padding-right:30px;
+  }
+  
+  #header-nav li{
+    display: inline-block;
+    padding-right:10px;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+  
+  #header-nav a{
+    display:block;
+  }
+  
+  #slide-thumb {
+    width:95vw;
+    max-width:95vw;
+    padding-left: 50px;
+  }
+  
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 50px;
+  }
+  
+  p1-main, p1-main2, p1-main3  {
+    padding-left: 50px;
+  }
+  
+  #slide-thumb li {
+    padding-right: 30px;
+  }
+  
+}
+
+
+
+
+
+/*********---------
+min-width : 650px
+max-width : 860px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+/*** header for mobile ***/
+
+@media only screen and (min-width : 650px)
+and (max-width : 860px) {
+  
+  .logo {
+    padding: 6px 0  4px 25px; 
+  }
+  
+  .logo-sidebar {
+    padding: 6px 0  4px 25px; 
+  }
+  
+  #header-nav {
+    display: inline-block;
+    float: right;
+  }
+
+  #header-nav ul {
+    display: inline-block;
+    float: right;
+    padding-right:30px;
+  }
+
+  #header-nav li {
+    display: inline-block;
+    padding-right:10px;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+
+  #header-nav a {
+    display:block;  
+  }
+  
+  #slide-thumb {
+    width:95vw;
+    max-width:95vw;
+    padding-left: 50px;
+  }
+
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 50px;    
+  }
+  
+  p1-main, p1-main2, p1-main3 {
+    padding-left: 50px;   
+  }
+  
+  #slide-thumb li {
+    padding-right: 20px;
+  }  
+  
+}
+
+
+
+
+
+
+/*********---------
+min-width : 0px
+max-width : 380px
+---------*********/
+
+/*** reguli and downloads pages for mobile ***/
+/*** header for mobile ***/
+
+
+
+@media only screen and (min-width : 0px)
+and (max-width : 380px) {
+  
+  .logo {
+    padding: 6px 0  4px 10px; 
+  }
+
+  .logo-sidebar {
+    padding: 6px 0  4px 10px;   
+  }
+     
+  #header-nav ul {
+    padding-right: 10px;
+  }
+
+  h1-main, h1-main2, h1-main3 {
+    padding-left: 20px;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 9px;
+    top:  50px;
+    width: 100vw;
+    border-bottom: 40px solid #D7DF23;
+  }
+
+  h1-main3 {
+    border-bottom: 40px solid white;
+  }
+  
+ .contact-info li {
+    clear:both;
+    max-width: 80vw;
+    padding-right: 20%;
+  }
+  
+  p1-main, p1-main2, p1-main3  {
+    padding-top: 80px;
+    padding-left: 20px;
+    width: 80vw;
+  }
+
+  #slide-thumb {
+    padding-left: 20px;
+  }
+ 
+
+}
+
+
+
+
+
+
+/*********---------
+min-width : 0px
+max-width : 650px
+---------*********/
+
+/*** header for mobile ***/
+
+@media only screen and (min-width : 0px)
+and (max-width : 650px) {
+
+  #header-nav ul {
+    padding-right: 10px;
+  }
+
+}
+
+
+
+/*********---------
+min-width : 0px
+max-width : 300px
+---------*********/
+
+/*** index page for mobile ***/
+
+
+@media only screen and (min-width : 0px)
+and (max-width : 300px) {
+
+ footer-index {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right:0;
+    padding: 0;  
+    margin-left: 5px;
+
+  }
+  
+  footer-index p {
+    color: #ffffff;
+  }
+
+  body.image-background {
+    background-image: url(img/bg_1_phone2.jpg);    
+  }
+  
+}
+
+
+/*********---------
+min-width : 301px
+max-width : 400px
+---------*********/
+
+/*** index page for mobile ***/
+
+
+@media only screen and (min-width : 301px)
+and (max-width : 400px) {
+
+  footer-index {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right:0;
+    padding: 0;  
+  }
+  
+  footer-index p {
+    color: #ffffff;
+  }
+
+  body.image-background {
+    background-image: url(img/bg_1_phone2.jpg);    
+  }
+  
+}
+
+/*********---------
+min-width : 401px
+max-width : 425px
+---------*********/
+
+/*** index page for mobile ***/
+
+
+@media only screen and (min-width : 401px)
+and (max-width : 425px) {
+
+  footer-index {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right:0;
+    padding: 0;
+    padding-right: 3%;
+  }
+  
+  footer-index p {
+    color: #ffffff;
+  }
+
+  body.image-background {
+    background-image: url(img/bg_1_phone2.jpg);    
+  }
+  
+}
+
+
+
+
+/*********---------
+min-width : 425px
+max-width : 745px
+---------*********/
+
+/*** index page for mobile ***/
+
+
+
+@media only screen and (min-width : 425px)
+and (max-width : 745px) {
+
+  footer-index {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right:0;
+    padding: 0;
+    padding-right: 3%;
+  }
+  
+  footer-index p {
+    color: #ffffff;
+  }
+
+  body.image-background {
+    background-image: url(img/bg_1_phone3.jpg);
+  }
+  
+}
+
+
+
+
+
+
+/*********---------
+min-width : 1700px
+max-width : 2000px
+---------*********/
+
+/*** better fit - reguli and downloads page for big screens ***/
+
+@media only screen and (min-width : 1700px)
+and (max-width : 2000px) {
+  
+  #slide-thumb {
+    width: 60vw;
+  }
+ 
+}
+
+
+
+
+
+/*********---------
+min-width : 0
+max-width : 900px
+---------*********/
+
+/*** sections - do not display text - descarca logo ***/
+
+
+@media only screen and (min-width : 0)
+and (max-width : 900px) {
+  
+  p.TOP-right{
+    display: none;
+  }
+ 
+}
+
+
+
+
+
+/*********---------
+min-width: 850px
+max-width: 915px
+---------*********/
+
+/********** better fit h1 ************/
+
+@media only screen and (min-width: 850px)
+    and (max-width: 915px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    font-size: 6em;
+    font-weight: 600;
+    border-bottom: 45px solid #2459ED;
+    line-height: 12%;
+  }
+}
+
+
+
+
+
+/*********---------
+min-width: 915px
+max-width: 1000px
+---------*********/
+
+/********** better fit h1 ************/
+
+@media only screen and (min-width: 915px)
+    and (max-width: 1000px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    font-size: 6.5em;
+    font-weight: 600;
+    border-bottom: 45px solid #2459ED;
+    line-height: 12%;
+  }
+}
+
+
+
+
+/*********---------
+min-width: 900px
+max-width: 900px
+---------*********/
+
+/********** better fit h1 ************/
+
+@media only screen and (min-width: 800px)
+    and (max-width: 900px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    font-size: 5.5em;
+    font-weight: 600;
+    border-bottom: 40px solid #2459ED;
+    line-height: 12%;
+  }
+}
+
+
+
+
+/*********---------
+min-width: 760px
+max-width: 850px
+---------*********/
+
+/********** better fit h1 ************/
+
+@media only screen and (min-width: 760px)
+    and (max-width: 850px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    font-size: 4.5em;
+    font-weight: 600;
+    border-bottom: 40px solid #2459ED;
+    line-height: 12%;
+  }
+} 
+
+
+
+
+/*********---------
+min-width: 680px
+max-width: 760px
+---------*********/
+
+/********** better fit h1 ************/
+
+@media only screen and (min-width: 680px)
+    and (max-width: 760px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    font-size: 3.5em;
+    font-weight: 600;
+    border-bottom: 40px solid #2459ED;
+    line-height: 12%;
+  }
+} 
+
+
+
+
+/*********---------
+min-width: 650px
+max-width: 680px
+---------*********/
+
+
+/********** better fit h1 ************/
+
+@media only screen and (min-width: 650px)
+    and (max-width: 680px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    font-size: 3em;
+    font-weight: 600;
+    border-bottom: 40px solid #2459ED;
+    line-height: 12%;
+  }
+} 
+
+
+
+
+
+/*********---------
+min-width: 450px
+max-width: 650px
+---------*********/
+
+/********** better fit h1 ************/
+
+
+@media only screen and (min-width: 450px)
+    and (max-width: 650px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    font-size: 2.5em;
+    font-weight: 600;
+    border-bottom: 40px solid #2459ED;
+    line-height: 12%;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+/*********---------
+min-width: 0px
+max-width: 650px
+---------*********/
+
+/********** spacing  ************/
+
+
+
+
+
+@media only screen and (min-width: 0)
+    and (max-width: 650px) {
+  
+  #LOGO{
+    padding-top: 50px; 
+  }
+  #concept {
+    padding-top: 0;
+    padding-bottom: 120%;     
+  }
+  
+  #proportii {
+    padding-bottom: 100%; 
+  }
+  
+  #variante-principale {
+    padding-bottom: 95%; 
+  }  
+  
+  #varianta-secundara {
+    padding-bottom: 120%;
+  }
+  
+  #variante-monocrome {
+    padding-bottom: 90%;   
+  }
+  
+  #spatiul-de-siguranta {
+    padding-bottom: 98%;
+  }
+  
+  
+  #dimensiunea-minima {
+    padding-bottom: 92%;
+  }
+  
+  #interdictii {
+    padding-bottom: 92%;
+  }
+  
+  #paleta-principala, #paleta-secundara {
+    padding-bottom: 115%;
+  }
+  
+  #familia-principala {
+    padding-bottom: 125%;
+  }
+     
+  #familia-secundara {
+    padding-bottom: 105%;
+  }
+   
+  #elemente-grafice-terenul {
+    padding-bottom: 150%;
+  }
+  
+  #fotografia-de-articol {
+    padding-bottom: 170%;
+  }
+    
+  #fotografia-folosita-in-promovare{
+    padding-bottom: 105%;
+  }
+          
+  #materiale-de-comunicare {
+    padding-bottom: 105%; 
+  }
+  #materiale-cu-fotografie {
+    padding-bottom: 135%;
+  }
+   
+  #materiale-fara-fotografie {
+    padding-bottom: 170%;
+  }
+
+} 
+
+
+
+
+
+
+/*********---------
+min-width: 651px
+max-width: 700px
+---------*********/
+
+/********** spacing ************/
+
+
+@media only screen and (min-width: 651px)
+    and (max-width: 700px) {
+  
+  #concept {
+    padding-bottom: 95%;     
+  }
+  
+  #proportii {
+    padding-bottom: 79%; 
+  }
+  
+  #variante-principale {
+    padding-bottom: 75%; 
+  }  
+  
+  #varianta-secundara {
+    padding-bottom: 78%;
+  }
+    
+  #spatiul-de-siguranta {
+    padding-bottom: 75%;
+  }
+  
+  #dimensiunea-minima {
+    padding-bottom: 72%;
+  }
+  
+  #paleta-principala, #paleta-secundara {
+    padding-bottom: 90%;
+  }
+  
+  #familia-principala {
+    padding-bottom: 95%;
+  }
+   
+  #materiale-de-comunicare {
+    padding-bottom: 73%;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-bottom: 115%;
+  }
+    
+  #fotografia-de-articol {
+    padding-bottom: 115%;
+  }
+          
+  #materiale-de-comunicare {
+    padding-bottom: 84%; 
+  }
+  
+  #materiale-cu-fotografie {
+    padding-bottom: 105%;
+  }
+   
+  #materiale-fara-fotografie {
+    padding-bottom: 120%;
+  }
+
+} 
+
+
+
+
+
+
+/*********---------
+min-width: 700px
+max-width: 750px
+---------*********/
+
+/********** spacing ************/
+
+
+
+@media only screen and (min-width: 700px)
+    and (max-width: 750px) {
+  
+  #concept {
+    padding-bottom: 84%;     
+  }
+  
+  #proportii {
+    padding-bottom: 79%; 
+  }
+  
+  #variante-principale {
+    padding-bottom: 75%; 
+  }  
+  
+  #varianta-secundara {
+    padding-bottom: 78%;
+  }
+    
+  #spatiul-de-siguranta {
+    padding-bottom: 75%;
+  }
+    
+  #paleta-principala, #paleta-secundara {
+    padding-bottom: 86%;
+  }
+  
+  #familia-principala {
+    padding-bottom: 95%;
+  }
+   
+  #materiale-de-comunicare {
+    padding-bottom: 73%;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-bottom: 97%;
+  }
+      
+  #fotografia-de-articol {
+    padding-bottom: 100%;
+  }
+          
+  #materiale-cu-fotografie {
+    padding-bottom: 94%;
+  }
+   
+  #materiale-fara-fotografie {
+    padding-bottom: 100%;
+  }
+
+} 
+
+
+
+/*********---------
+min-width: 750px
+max-width: 800px
+---------*********/
+
+/********** spacing ************/
+
+
+@media only screen and (min-width: 750px)
+    and (max-width: 800px) {
+  
+  #proportii {
+    padding-top: 150px;
+  }
+  
+  #varianta-secundara {
+    padding-bottom: 73%;
+  }
+  #paleta-principala, #paleta-secundara {
+    padding-bottom: 79%;
+  }
+  
+  #familia-principala {
+    padding-bottom: 80%;
+  }
+   
+  #materiale-de-comunicare {
+    padding-bottom: 73%;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-bottom: 87%;
+  }
+  
+  #fotografia-de-articol {
+    padding-bottom: 90%;
+  }        
+  
+  #materiale-cu-fotografie {
+    padding-bottom: 94%;
+  }
+ 
+  #materiale-fara-fotografie {
+    padding-bottom: 95%;
+  }
+
+} 
+
+
+
+
+
+
+
+/*********---------
+min-width: 800px
+max-width: 850px
+---------*********/
+
+/********** spacing ************/
+
+
+@media only screen and (min-width: 800px)
+    and (max-width: 850px) {
+  
+  
+  #paleta-principala, #paleta-secundara {
+    padding-bottom: 78%;
+  }
+  
+  #familia-principala {
+    padding-bottom: 78%;
+  }
+   
+  #elemente-grafice-terenul {
+    padding-bottom: 80%;
+  }
+      
+  #fotografia-de-articol {
+    padding-bottom: 85%;
+  }
+          
+  #materiale-cu-fotografie {
+    padding-bottom: 79%;
+  }
+   
+  #materiale-fara-fotografie {
+    padding-bottom: 85%;
+  }
+
+} 
+
+
+
+
+/*********---------
+min-width: 850px
+max-width: 930px
+---------*********/
+
+/********** spacing ************/
+
+
+@media only screen and (min-width: 850px)
+    and (max-width: 930px) {
+  
+  #paleta-principala, #paleta-secundara {
+    padding-bottom: 72%;
+  }
+    
+     
+  #elemente-grafice-terenul {
+    padding-bottom: 75%;
+  }
+      
+  #fotografia-de-articol {
+    padding-bottom: 78%;
+  }
+          
+  #materiale-cu-fotografie {
+    padding-bottom: 79%;
+  }
+   
+  #materiale-fara-fotografie {
+    padding-bottom: 79%;
+  }
+
+} 
+
+
+
+
+
+
+/*********---------
+min-width: 0px
+max-width: 675px
+---------*********/
+
+/******* delete text on small resolution  - descarca logo *****/
+
+
+
+@media only screen and (min-width: 0)
+    and (max-width: 675px) {
+
+ .TOP-right img{
+    display:none;
+  }
+  
+}
+
+
+
+
+/*********---------
+min-height: 0px
+max-height: 550px
+min-width : 0px
+max-width : 745px
+---------*********/
+
+/******* adjust index page footer  *****/
+
+
+
+@media only screen
+  and (min-height: 0) and (max-height : 550px)
+  and (min-width : 0px) and (max-width : 745px) 
+  {
+  
+  footer-index {
+    position:absolute;
+    bottom: -50px;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 5px;
+  }
+}
+
+
+
+/*********---------
+min-height: 0px
+max-height: 550px
+min-width : 745px
+---------*********/
+
+/******* adjust index page footer *****/
+
+
+
+@media only screen
+  and (min-height: 0) and (max-height : 550px)
+  and (min-width : 745px) 
+  {
+  
+  footer-index {
+    clear:both;
+    position:absolute;
+  }
+  
+  body.image-background {
+    height: 120vh;
+  }
+}
+
+
+
+
+
+/*********---------
+min-height: 0px
+max-height : 380px
+min-width : 745px
+---------*********/
+
+/******* adjust index page footer *****/
+
+
+@media only screen
+  and (min-height: 0) and (max-height : 380px)
+  and (min-width : 745px) 
+  {
+  
+  footer-index {
+    clear:both;
+    position:absolute;
+    top: 470px;
+    margin: 0;
+    max-height:20px;
+  }
+  
+  footer-index p {
+    margin-bottom: 20px;
+  }
+  
+  body.image-background {
+    height: 160vh;
+  }
+}
+
+
+
+
+/*********---------
+min-height: 380px
+max-height : 413px
+min-width : 745px
+---------*********/
+
+/******* adjust index page footer *****/
+
+@media only screen
+  and (min-height: 380px) and (max-height : 413px)
+  and (min-width : 745px) 
+  {
+  
+  footer-index {
+    clear:both;
+    position:absolute;
+    top: 87%;
+    margin: 0;
+    max-height:20px;
+  }
+  
+  body.image-background {
+    height: 140vh;
+  }
+}
+
+
+
+/*********---------
+min-height: 413px
+max-height :530px
+min-width : 745px
+---------*********/
+
+/******* adjust index page footer *****/
+
+@media only screen
+  and (min-height: 413px) and (max-height : 530px)
+  and (min-width : 745px) 
+  {
+  
+  footer-index {
+    clear:both;
+    position:absolute;
+    top: 87%;
+    margin: 0;
+    max-height:20px;
+  }
+  
+  body.image-background {
+    height: 140vh;
+  }
+}
+
+
+/*********---------
+min-width: 650px
+max-width: 860px
+---------*********/
+
+/******* space under h1 - reguli and downloads page *****/
+
+
+
+@media only screen and (min-width : 650px)
+and (max-width : 860px) {
+
+  ul#slide-thumb {
+    padding-top: 150px;
+  }
+  
+  #slide-thumb li {
+    padding-right: 50px;
+  } 
+  
+}
+
+
+
+/*********---------
+min-width: 479px
+max-width: 650px
+---------*********/
+
+/******* space under h1 - reguli and downloads page *****/
+
+
+@media only screen and (min-width : 479px)
+and (max-width : 650px) {
+  
+  ul#slide-thumb {
+    padding-top: 130px;
+  }
+ 
+  #slide-thumb li {
+    padding-right: 50px;
+  }
+}
+
+
+
+
+
+/*********---------
+min-width: 0
+max-width: 479px
+---------*********/
+
+/******* space under h1 - reguli and downloads page *****/
+
+@media only screen and (min-width : 0)
+and (max-width : 479px) {
+  
+  ul#slide-thumb {
+    padding-top: 95px;
+  }
+  
+  #slide-thumb li {
+    padding-bottom: 45px;
+  }
+  
+}
+
+
+
+
+
+
+/*********---------
+min-width: 820px
+max-width: 860px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+
+
+@media only screen and (min-width : 820px)
+and (max-width : 860px) {
+
+  ul#slide-thumb {
+    padding-left: 17%;
+  }
+  
+  h1-main {
+    padding-left: 17%;
+  }
+  
+  h1-main2 {
+    padding-left: 17%;
+  }
+ 
+}
+
+
+
+
+/*********---------
+min-width: 800px
+max-width: 820px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+@media only screen and (min-width : 800px)
+and (max-width : 820px) {
+
+  ul#slide-thumb {
+    padding-left: 16%;
+  }
+  
+  h1-main {
+    padding-left: 16%;
+  }
+  
+  h1-main2 {
+    padding-left: 16%;
+  }
+ 
+}
+
+
+
+
+/*********---------
+min-width: 770px
+max-width: 800px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width : 770px)
+and (max-width : 800px) {
+
+  ul#slide-thumb {
+    padding-left: 15%;
+  }
+  
+  h1-main {
+    padding-left: 15%;
+  }
+  
+  h1-main2 {
+    padding-left: 15%;
+  }
+ 
+}
+
+
+
+
+/*********---------
+min-width: 740px
+max-width: 770px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width : 740px)
+and (max-width : 770px) {
+
+  ul#slide-thumb {
+    padding-left: 13%;
+  }
+  
+  h1-main {
+    padding-left: 13%;
+  }
+  
+  h1-main2 {
+    padding-left: 13%;
+  }
+ 
+}
+
+
+
+
+
+/*********---------
+min-width: 700px
+max-width: 740px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width : 700px)
+and (max-width : 740px) {
+
+  ul#slide-thumb {
+    padding-left: 11%;
+  }
+  
+  h1-main {
+    padding-left: 11%;
+  }
+  
+  h1-main2 {
+    padding-left: 11%;
+  }
+ 
+}
+
+
+
+
+/*********---------
+min-width: 670px
+max-width: 700px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+
+
+@media only screen and (min-width : 670px)
+and (max-width : 700px) {
+
+  ul#slide-thumb {
+    padding-left: 9%;
+  }
+  
+  h1-main {
+    padding-left: 9%;
+  }
+  
+  h1-main2 {
+    padding-left: 9%;
+  }
+ 
+}
+
+
+
+
+/*********---------
+min-width: 576px
+max-width: 631px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width : 576px)
+and (max-width : 631px) {
+
+  ul#slide-thumb {
+    padding-left: 27%;
+  }
+  
+  h1-main {
+    padding-left: 27%;
+  }
+  
+  h1-main2 {
+    padding-left: 27%;
+  }
+ 
+}
+
+
+
+/*********---------
+min-width: 480px
+max-width: 526px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width : 480px)
+and (max-width : 526px) {
+
+  ul#slide-thumb {
+    padding-left: 24%;
+  }
+  
+  h1-main {
+    padding-left: 24%;
+  }
+  
+  h1-main2 {
+    padding-left: 24%;
+  }
+  
+  .logo {
+    padding: 6px 0 4px 10px;
+  }
+}
+
+
+
+
+
+
+/*********---------
+min-width: 440px
+max-width: 480px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+
+@media only screen and (min-width : 440px)
+and (max-width : 480px) {
+
+  ul#slide-thumb {
+    padding-left: 22%;
+  }
+  
+  h1-main {
+    padding-left: 22%;
+  }
+  
+  h1-main2 {
+    padding-left: 22%;
+  }
+  
+  .logo {
+    padding: 6px 0 4px 10px;
+  }
+}
+
+
+
+
+
+
+/*********---------
+min-width: 400px
+max-width: 440px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width : 400px)
+and (max-width : 440px) {
+
+  ul#slide-thumb {
+    padding-left: 20%;
+  }
+  
+  h1-main {
+    padding-left: 20%;
+  }
+  
+  h1-main2 {
+    padding-left: 20%;
+  }
+  
+  .logo {
+    padding: 6px 0 4px 10px;
+  }
+}
+
+
+
+
+
+
+
+
+/*********---------
+min-width: 370px
+max-width: 400px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width :  370px)
+and (max-width : 400px) {
+
+  ul#slide-thumb {
+    padding-left: 17%;
+  }
+  
+  h1-main {
+    padding-left: 17%;
+  }
+  
+  h1-main2 {
+    padding-left: 17%;
+  }
+  
+  .logo {
+    padding: 6px 0 4px 10px;
+  }
+}
+
+
+
+
+
+/*********---------
+min-width: 340px
+max-width: 370px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+@media only screen and (min-width : 340px)
+and (max-width : 370px) {
+
+  ul#slide-thumb {
+    padding-left: 15%;
+  }
+  
+  h1-main {
+    padding-left: 15%;
+  }
+  
+  h1-main2 {
+    padding-left: 15%;
+  }
+  
+  .logo {
+    padding: 6px 0 4px 10px;
+  }
+}
+
+
+
+
+
+
+/*********---------
+min-width: 325px
+max-width: 340px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width : 325px)
+and (max-width : 340px) {
+
+  ul#slide-thumb {
+    padding-left: 11%;
+  }
+  
+  h1-main {
+    padding-left: 11%;
+  }
+  
+  h1-main2 {
+    padding-left: 11%;
+  }
+  
+  .logo {
+    padding: 6px 0 4px 10px;
+  }
+}
+
+
+
+
+/*********---------
+min-width: 315px
+max-width: 325px
+---------*********/
+
+/******* padding left & right. h1 and thumbs on reguli & downloads page*****/
+
+
+@media only screen and (min-width :  315px)
+and (max-width : 325px) {
+
+  ul#slide-thumb {
+    padding-left: 10%;
+  }
+  
+  h1-main {
+    padding-left: 10%;
+  }
+  
+  h1-main2 {
+    padding-left: 10%;
+  }
+  
+  .logo {
+    padding: 6px 0 4px 10px;
+  }
+  
+}
+
+
+
+
+/*********---------
+min-width: 0
+max-width: 314px
+---------*********/
+
+/******* header nav for really small width *****/
+
+
+
+@media only screen and (min-width : 0px)
+and (max-width : 314px) {
+
+ #header-nav ul{
+    padding-right:5px;
+  }
+  
+ #header-nav li{
+    padding-right:5px;
+  }
+  
+
+}
+
+
+
+
+
+/*********---------
+min-width: 0
+max-width: 293px
+---------*********/
+
+/******* header nav, h1 reguli and downloads page for really small width *****/
+
+
+@media only screen and (min-width : 0px)
+and (max-width : 293px) {
+
+  #wrapper-main {
+    padding-top:130px;    
+  }
+  
+  h1-main {
+    padding-top:80px;
+  }
+  
+  #wrapper-main2 {
+    padding-top:130px;
+  }
+  
+  h1-main2 {
+    padding-top:80px;
+  }
+  
+  #header-nav li{
+    display:block;
+    margin-bottom: 3px;
+  }
+  
+  #header-nav ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+/*********---------
+min-width: 0
+max-width: 860px
+---------*********/
+
+/******* h1 for reguli and downloads page *****/
+
+@media only screen and (min-width : 0px)
+and (max-width : 860px) {
+
+
+  h1-main {
+    padding-top:30px;
+  }
+
+  h1-main2 {
+    padding-top:30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+/*********---------
+min-width: 825px
+max-width: 900px
+---------*********/
+
+/******* padding left & right for index page *****/
+
+
+
+@media only screen and (min-width :  825px)
+and (max-width : 900px) {
+  
+ h1{
+   padding-left:16%;
+  }
+  
+ p1{
+   padding-left:16%;
+  }
+ 
+ .nav{
+   padding-left:16%;
+  }
+  
+}
+
+
+
+
+
+
+/*********---------
+min-width: 0px
+max-width: 825px
+---------*********/
+
+/******* padding left & right for index page *****/
+
+
+@media only screen and (min-width : 0px)
+and (max-width : 825px) {
+  
+ h1{
+   padding-left:50px;
+ }
+  
+ p1{
+   padding-left:50px;
+ }
+ 
+ .nav{
+   padding-left:50px;
+ }
+  
+  
+}
+
+
+
+
+
+/*********---------
+min-width: 0px
+max-width: 526px
+---------*********/
+
+/******* padding left & right for index page *****/
+
+
+@media only screen and (min-width : 0px) 
+and (max-width : 526px) {
+
+ h1{
+   padding-left:35px;
+ }
+  
+ p1{
+   padding-left:35px;
+ }
+ 
+ .nav{
+   padding-left:35px;
+ }
+  
+}
+
+
+
+
+
+
+
+/*********---------
+min-width: 0px
+max-width: 399px
+---------*********/
+
+/******* padding left & right for index page *****/
+
+
+@media only screen and (min-width : 0px)
+    and (max-width : 399px) {
+  
+  .nav{
+    padding-left:0px;
+    margin-right:0px;
+    margin-left: 20px;
+  }
+}
+
+
+
+
+
+/*********---------
+min-width: 0px
+max-width: 293px
+---------*********/
+
+/******* padding left & right for index page *****/
+
+@media only screen and (min-width : 0px)
+    and (max-width : 293px) {
+  
+  h1-main{
+    padding-top: 74px;
+  }
+  
+  h1-main2{
+    padding-top: 74px;
+  }
+  
+}
+
+
+
+
+/*********---------
+min-width: 294px
+max-width: 480px
+---------*********/
+
+/******* padding for reguli and downloads page *****/
+
+
+@media only screen and (min-width : 294px)
+    and (max-width : 480px) {
+  
+  h1-main{
+    padding-top: 50px;
+  }
+  
+  h1-main2{
+    padding-top: 50px;
+  }
+  
+  ul#slide-thumb {
+    padding-top: 110px;
+  }
+  
+  #slide-thumb li {
+    padding-bottom: 40px;
+  }
+ 
+}
+
+
+
+
+/*********---------
+min-width:0
+max-width: 399px
+---------*********/
+
+/******* ghid page for mobile screens
+delete wrapper, fix h1 *****/
+
+
+@media only screen and (min-width:0)
+    and (max-width:399px) {
+  #wrapper-sidebar {
+    visibility: hidden;
+    display: none;
+  }
+  
+  #move {
+    left: 20px;    
+  }
+  
+  footer-ghid {
+    padding-right: 20px;
+  }
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-left: 20px;
+  } 
+   
+  .whole img{
+    max-width:100%;
+  }
+}
+
+
+
+
+/*********---------
+max-width: 400px
+max-width:750px
+---------*********/
+
+/******* ghid page for mobile screens
+delete wrapper, fix h1 *****/
+
+
+
+@media only screen and (min-width:400px)
+    and (max-width:750px) {
+  
+  #wrapper-sidebar {
+    visibility: hidden;
+    display: none;
+  }
+  
+  #move {
+    left: 35px;    
+  }
+  
+  footer-ghid {
+    padding-right: 20px;
+  }
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple {
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-left: 35px;
+  } 
+   
+  .whole img{
+    max-width:100%;
+  }
+}
+
+
+
+
+/*********---------
+min-width: 190px
+max-width: 211p
+---------*********/
+
+/******* spacing *****/
+
+
+@media only screen and (min-width: 190px) 
+    and (max-width:211px) {
+
+  h1-logo{
+    padding-top: 20px;
+  }
+  
+  #concept {
+    padding-top: 20px;
+  }
+    
+  #proportii {
+    padding-top: 600px;
+  }
+  
+  #variante-principale {
+    padding-top: 580px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 510px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 520px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 420px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 510px;
+  }    
+  
+  #interdictii {
+    padding-top: 460px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 400px;
+  }
+  
+  #paleta-principala {
+    padding-top: 430px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 550px;
+  }    
+  
+  #restrictii {
+    padding-top: 550px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 420px;
+  }
+  
+  #familia-principala {
+    padding-top: 450px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 650px;
+  }    
+  
+  h1-stil {
+    padding-top: 350px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 380px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 700px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 710px;
+  }    
+  
+  h1-exemple {
+    padding-top: 410px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 470px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 560px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 670px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 780px;
+  }  
+}
+
+
+
+
+/*********---------
+min-width: 212px
+max-width: 254px
+---------*********/
+
+
+/******* spacing *****/
+
+
+
+@media only screen and (min-width: 212px) 
+    and (max-width:254px) {
+  
+  #concept {
+    padding-top: 20px;
+  }
+    
+  #proportii {
+    padding-top: 500px;
+  }
+  
+  #variante-principale {
+    padding-top: 470px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 410px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 450px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 390px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 450px;
+  }    
+  
+  #interdictii {
+    padding-top: 400px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 300px;
+  }
+  
+  #paleta-principala {
+    padding-top: 350px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 500px;
+  }    
+  
+  #restrictii {
+    padding-top: 500px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 330px;
+  }
+  
+  #familia-principala {
+    padding-top: 400px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 500px;
+  }    
+  
+  h1-stil {
+    padding-top: 230px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 260px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 600px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 580px;
+  }    
+  
+  h1-exemple {
+    padding-top: 270px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 330px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 460px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 550px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 650px;
+  }  
+}
+
+
+
+
+
+
+
+
+/*********---------
+min-width: 255px
+max-width: 289px
+---------*********/
+/******* spacing *****/
+
+
+
+@media only screen and (min-width: 255px) 
+    and (max-width:289px) {
+  
+  #concept {
+    padding-top: 20px;
+  }
+    
+  #proportii {
+    padding-top: 400px;
+  }
+  
+  #variante-principale {
+    padding-top: 380px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 360px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 350px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 320px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 360px;
+  }    
+  
+  #interdictii {
+    padding-top: 360px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 200px;
+  }
+  
+  #paleta-principala {
+    padding-top: 230px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 400px;
+  }    
+  
+  #restrictii {
+    padding-top: 370px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 250px;
+  }
+  
+  #familia-principala {
+    padding-top: 270px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 450px;
+  }    
+  
+  h1-stil {
+    padding-top: 140px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 170px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 420px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 390px;
+  }    
+  
+  h1-exemple {
+    padding-top: 210px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 240px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 380px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 450px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 470px;
+  }  
+}
+
+
+
+
+
+
+/*********---------
+min-width: 290px
+max-width: 345px
+---------*********/
+
+/******* spacing *****/
+
+
+
+@media only screen and (min-width: 290px) 
+    and (max-width:345px) {
+  
+  #concept {
+    padding-top: 20px;
+  }
+    
+  #proportii {
+    padding-top: 350px;
+  }
+  
+  #variante-principale {
+    padding-top: 370px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 310px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 310px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 270px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 310px;
+  }    
+  
+  #interdictii {
+    padding-top: 300px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 200px;
+  }
+  
+  #paleta-principala {
+    padding-top: 230px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 350px;
+  }    
+  
+  #restrictii {
+    padding-top: 350px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 220px;
+  }
+  
+  #familia-principala {
+    padding-top: 240px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 350px;
+  }    
+  
+  h1-stil {
+    padding-top: 130px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 160px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 380px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 340px;
+  }    
+  
+  h1-exemple {
+    padding-top: 180px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 210px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 310px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 370px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 360px;
+  }  
+}
+
+
+
+
+
+
+
+/*********---------
+min-width: 345px
+max-width: 400px
+---------*********/
+
+/******* spacing *****/
+
+
+
+@media only screen and (min-width: 345px) 
+    and (max-width:400px) {
+  
+  #concept {
+    padding-top: 20px;
+  }
+    
+  #proportii {
+    padding-top: 250px;
+  }
+  
+  #variante-principale {
+    padding-top: 260px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 260px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 200px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 210px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 250px;
+  }    
+  
+  #interdictii {
+    padding-top: 250px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 160px;
+  }
+  
+  #paleta-principala {
+    padding-top: 200px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 270px;
+  }    
+  
+  #restrictii {
+    padding-top: 260px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 150px;
+  }
+  
+  #familia-principala {
+    padding-top: 190px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 250px;
+  }    
+  
+  h1-stil {
+    padding-top: 80px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 120px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 210px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 150px;
+  }    
+  
+  h1-exemple {
+    padding-top: 120px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 140px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 250px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 300px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 200px;
+  }  
+}
+
+
+
+
+
+
+/*********---------
+min-width: 401px
+max-width: 430px
+---------*********/
+
+
+/******* spacing *****/
+
+
+@media only screen and (min-width: 401px) 
+    and (max-width:430px) {
+  
+  #concept {
+    padding-top: 10px;
+  }
+    
+  #proportii {
+    padding-top: 180px;
+  }
+  
+  #variante-principale {
+    padding-top: 230px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 220px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 150px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 190px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 200px;
+  }    
+  
+  #interdictii {
+    padding-top: 220px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 150px;
+  }
+  
+  #paleta-principala {
+    padding-top: 170px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 230px;
+  }    
+  
+  #restrictii {
+    padding-top: 230px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 130px;
+  }
+  
+  #familia-principala {
+    padding-top: 170px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 200px;
+  }    
+  
+  h1-stil {
+    padding-top: 10px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 70px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 140px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 70px;
+  }    
+  
+  h1-exemple {
+    padding-top: 100px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 120px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 220px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 200px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 120px;
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+/*********---------
+min-width: 431px
+max-width: 460px
+---------*********/
+
+/******* spacing *****/
+
+
+@media only screen and (min-width: 431px) 
+    and (max-width:460px) {
+  
+  #concept {
+    padding-top: 10px;
+  }
+    
+  #proportii {
+    padding-top: 180px;
+  }
+  
+  #variante-principale {
+    padding-top: 230px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 220px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 150px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 190px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 200px;
+  }    
+  
+  #interdictii {
+    padding-top: 220px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 150px;
+  }
+  
+  #paleta-principala {
+    padding-top: 170px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 230px;
+  }    
+  
+  #restrictii {
+    padding-top: 230px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 130px;
+  }
+  
+  #familia-principala {
+    padding-top: 170px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 200px;
+  }    
+  
+  h1-stil {
+    padding-top: 10px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 70px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 140px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 70px;
+  }    
+  
+  h1-exemple {
+    padding-top: 100px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 120px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 220px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 200px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 120px;
+  }  
+}
+
+
+
+
+
+
+/*********---------
+min-width: 461px
+max-width: 500px
+---------*********/
+
+/******* spacing *****/
+
+
+@media only screen and (min-width: 461px) 
+    and (max-width:500px) {
+  
+  #concept {
+    padding-top: 20px;
+  }
+    
+  #proportii {
+    padding-top: 120px;
+  }
+  
+  #variante-principale {
+    padding-top: 180px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 180px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 100px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 170px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 180px;
+  }    
+  
+  #interdictii {
+    padding-top: 190px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 120px;
+  }
+  
+  #paleta-principala {
+    padding-top: 170px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 170px;
+  }    
+  
+  #restrictii {
+    padding-top: 180px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 130px;
+  }
+  
+  #familia-principala {
+    padding-top: 170px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 120px;
+  }    
+  
+  h1-stil {
+    padding-top: 0px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 40px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 40px;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 0px;
+  }    
+  
+  h1-exemple {
+    padding-top: 40px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 70px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 180px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 160px;
+  }  
+  
+  #exemple-materiale {
+    padding-top: 20px;
+  }  
+}
+
+
+
+
+
+/*********---------
+min-width: 501px
+max-width: 550px
+---------*********/
+
+/******* spacing *****/
+
+
+@media only screen and (min-width: 501px) 
+    and (max-width:550px) {
+  
+  #concept {
+    padding-top: 20px;
+  }
+    
+  #proportii {
+    padding-top: 80px;
+  }
+  
+  #variante-principale {
+    padding-top: 150px;
+  }
+  
+  #varianta-secundara {
+    padding-top:160px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 60px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 120px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 140px;
+  }    
+  
+  #interdictii {
+    padding-top: 170px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 100px;
+  }
+  
+  #paleta-principala {
+    padding-top: 150px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 150px;
+  }    
+  
+  #restrictii {
+    padding-top: 130px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 130px;
+  }
+  
+  #familia-principala {
+    padding-top: 170px;
+  }    
+  
+  #familia-secundara {
+    padding-top: 60px;
+  }    
+  
+  h1-stil {
+    padding-top: 0px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 40px;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 0px;
+    padding-bottom: 154%;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 0px;
+  }    
+  
+  h1-exemple {
+    padding-top: 0px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 90px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 150px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top:  120px;
+    padding-bottom: 155%; 
+  }  
+  
+  #exemple-materiale {
+    padding-top: 0px;
+  }  
+}
+
+
+
+/*********---------
+min-width: 551px
+max-width: 600px
+---------*********/
+
+/******* spacing *****/
+
+
+
+@media only screen and (min-width: 551px) 
+    and (max-width:600px) {
+  
+  #concept {
+    padding-top: 30px;
+  }
+    
+  #proportii {
+    padding-top: 40px;
+  }
+  
+  #variante-principale {
+    padding-top: 130px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 130px;
+  }
+  
+  #variante-monocrome {
+    padding-top: 30px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 120px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 130px;
+  }    
+  
+  #interdictii {
+    padding-top: 160px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 100px;
+  }
+  
+  #paleta-principala {
+    padding-top: 150px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 100px;
+  }    
+  
+  #restrictii {
+    padding-top: 110px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 110px;
+  }
+  
+  #familia-principala {
+    padding-top: 150px;
+  }    
+  
+  #familia-secundara {  
+    padding-top: 30px;
+    padding-bottom: 90%;
+  }    
+  
+  h1-stil {
+    padding-top: 0px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 40px;
+    padding-bottom: 139%;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 0px;
+    padding-bottom: 145%;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 0px;
+  }    
+  
+  h1-exemple {
+    padding-top: 0px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 40px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 130px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top:  70px;
+    padding-bottom: 147%; 
+  }  
+  
+  #exemple-materiale {
+    padding-top: 0px;
+  }  
+}
+
+
+
+
+
+
+
+/*********---------
+min-width: 601px
+max-width: 650px
+---------*********/
+
+/******* spacing *****/
+
+
+@media only screen and (min-width: 601px) 
+    and (max-width:650px) {
+  
+  #concept {
+    padding-top: 30px;
+    padding-bottom: 115%;
+  }
+    
+  #proportii {
+    padding-top: 0px;
+  }
+  
+  #variante-principale {
+    padding-top: 100px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 100px;
+    padding-bottom: 115%;
+  }
+  
+  #variante-monocrome {
+    padding-top: 0px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 100px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 80px;
+  }    
+  
+  #interdictii {
+    padding-top: 160px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 50px;
+  }
+  
+  #paleta-principala {
+    padding-top: 100px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 60px;
+  }    
+  
+  #restrictii {
+    padding-top: 70px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 100px;
+  }
+  
+  #familia-principala {
+    padding-top: 150px;
+  }    
+  
+  #familia-secundara {  
+    padding-top: 0px;
+    padding-bottom: 80%;
+  }    
+  
+  h1-stil {
+    padding-top: 10px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 60px;
+    padding-bottom: 120%;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 10px;
+    padding-bottom: 130%;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 0px;
+    padding-bottom: 96%;
+  }    
+  
+  h1-exemple {
+    padding-top: 0px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 50px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 100px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top:  10px;
+    padding-bottom: 134%; 
+  }  
+  
+  #exemple-materiale {
+    padding-top: 0px;
+  }  
+}
+
+
+
+
+
+
+
+/*********---------
+min-width: 651px
+max-width: 700px
+---------*********/
+
+/******* spacing *****/
+
+
+@media only screen and (min-width: 651px) 
+    and (max-width:700px) {
+  
+  #concept {
+    padding-top: 30px;
+    padding-bottom: 110%;
+  }
+    
+  #proportii {
+    padding-top: 0px;
+  }
+  
+  #variante-principale {
+    padding-top: 190px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 200px;
+    padding-bottom: 110%;
+  }
+  
+  #variante-monocrome {
+    padding-top: 0px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 210px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 200px;
+  }    
+  
+  #interdictii {
+    padding-top: 240px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 170px;
+  }
+  
+  #paleta-principala {
+    padding-top: 220px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 170px;
+  }    
+  
+  #restrictii {
+    padding-top: 190px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 100px;
+  }
+  
+  #familia-principala {
+    padding-top: 150px;
+  }    
+  
+  #familia-secundara {  
+    padding-top: 160px;
+    padding-bottom: 80%;
+  }    
+  
+  h1-stil {
+    padding-top: 10px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 70px;
+    padding-bottom: 117%;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 0px;
+    padding-bottom: 125%;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 0px;
+    padding-bottom: 95%;
+  }    
+  
+  h1-exemple {
+    padding-top: 0px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 50px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 200px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 150px;
+    padding-bottom: 128%; 
+  }  
+  
+  #exemple-materiale {
+    padding-top: 0px;
+  }  
+}
+
+
+
+
+
+/*********---------
+min-width: 701px
+max-width: 750px
+---------*********/
+
+/******* spacing *****/
+
+
+
+@media only screen and (min-width: 701px) 
+    and (max-width:750px) {
+  
+  #concept {
+    padding-top: 30px;
+    padding-bottom: 100%;
+  }
+    
+  #proportii {
+    padding-top: 0px;
+  }
+  
+  #variante-principale {
+    padding-top: 190px;
+  }
+  
+  #varianta-secundara {
+    padding-top: 200px;
+    padding-bottom: 110%;
+  }
+  
+  #variante-monocrome {
+    padding-top: 0px;
+  }
+
+  #spatiul-de-siguranta {
+    padding-top: 210px;
+  }  
+  
+  #dimensiunea-minima {
+    padding-top: 200px;
+  }    
+  
+  #interdictii {
+    padding-top: 260px;
+  }    
+  
+  h1-cromatica {
+    padding-top: 170px;
+  }
+  
+  #paleta-principala {
+    padding-top: 220px;
+  }    
+  
+  #paleta-secundara {
+    padding-top: 180px;
+  }    
+  
+  #restrictii {
+    padding-top: 210px;
+  }    
+  
+  h1-fonturi {
+    padding-top: 100px;
+  }
+  
+  #familia-principala {
+    padding-top: 150px;
+  }    
+  
+  #familia-secundara {  
+    padding-top: 150px;
+    padding-bottom: 80%;
+  }    
+  
+  h1-stil {
+    padding-top: 10px;
+  }
+  
+  #elemente-grafice-terenul {
+    padding-top: 70px;
+    padding-bottom: 112%;
+  }    
+  
+  #fotografia-de-articol {
+    padding-top: 0px;
+    padding-bottom: 120%;
+  } 
+  
+  #fotografia-folosita-in-promovare {
+    padding-top: 0px;
+    padding-bottom: 90%;
+  }    
+  
+  h1-exemple {
+    padding-top: 0px;
+  }
+  
+  #materiale-de-comunicare {
+    padding-top: 50px;
+  }    
+  
+  #materiale-cu-fotografie {
+    padding-top: 280px;
+  }  
+  
+  #materiale-fara-fotografie {
+    padding-top: 220px;
+    padding-bottom: 125%; 
+  }  
+  
+  #exemple-materiale {
+    padding-top: 0px;
+  }  
+}
+
+
+
+
+
+/*********---------
+min-width: 0
+max-width:211px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+
+@media only screen and (min-width: 0px) 
+    and (max-width:211px) {
+  
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 2em;
+    border-bottom: 30px solid #2459ED;
+  }
+  
+}
+
+
+
+
+
+/*********---------
+min-width: 212px
+max-width: 265px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+
+@media only screen and (min-width: 212px) 
+    and (max-width:265px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 2.2em;
+    border-bottom: 35px solid #2459ED;
+  }
+  
+}
+
+
+
+
+/*********---------
+min-width: 265
+max-width: 293px
+---------*********/
+
+
+/******* h1 for different resolutions *****/
+
+@media only screen and (min-width: 265px) 
+    and (max-width:293px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 3em;
+    border-bottom: 35px solid #2459ED;
+  }
+  
+}
+
+
+
+/*********---------
+min-width: 294px
+max-width: 330px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+
+@media only screen and (min-width: 294px) 
+    and (max-width:330px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 3em;
+    border-bottom: 35px solid #2459ED;
+  }
+  
+}
+
+
+
+
+
+/*********---------
+min-width: 330px
+max-width: 400px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+@media only screen and (min-width: 330px) 
+    and (max-width: 400px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 3.5em;
+    border-bottom: 40px solid #2459ED;
+  }
+  
+}
+
+
+
+
+/*********---------
+min-width: 401px
+max-width: 450px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+
+@media only screen and (min-width: 401px) 
+    and (max-width: 450px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 4em;
+    border-bottom: 40px solid #2459ED;
+  }
+  
+}
+
+
+
+
+/*********---------
+min-width: 451px
+max-width: 500px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+@media only screen and (min-width: 451px) 
+    and (max-width: 500px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 4.5em;
+    border-bottom: 40px solid #2459ED;
+  }
+
+}
+
+
+
+
+/*********---------
+min-width: 501px
+max-width: 600px
+---------*********/
+
+
+/******* h1 for different resolutions *****/
+
+@media only screen and (min-width: 501px) 
+    and (max-width: 600px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 5em;
+    border-bottom: 40px solid #2459ED;
+  }
+  
+}
+
+
+
+
+/*********---------
+min-width: 601px
+max-width: 650px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+
+@media only screen and (min-width: 601px) 
+    and (max-width: 650px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 5.5em;
+    border-bottom: 40px solid #2459ED;
+  }
+  
+}
+
+
+/*********---------
+min-width:  501px
+max-width: 526px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+@media only screen and (min-width: 501px) 
+    and (max-width: 526px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 4.5em;
+    border-bottom: 40px solid #2459ED;
+  
+  }
+  
+}
+
+
+/*********---------
+min-width: 527px
+max-width:750px
+---------*********/
+
+/******* h1 for different resolutions *****/
+
+
+@media only screen and (min-width: 527px) 
+    and (max-width: 750px) {
+    
+  h1-logo, h1-cromatica, h1-fonturi, h1-stil, h1-exemple{
+    font-size: 6em;
+    border-bottom: 40px solid #2459ED;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+/*********---------
+min-width: 3401px
+max-width:6000px
+---------*********/
+
+/******* optimised for bigger screens *****/
+
+  
+@media only screen and (min-width: 3401px) 
+    and (max-width: 6000px) {
+  
+     
+#concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta, #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #exemple-materiale {
+    width: 180%;
+    padding-bottom: 66%;
+ }
+  
+ #concept { 
+    padding-bottom: 63%;
+ }
+  
+ #paleta-secundara {
+    padding-bottom: 73%;
+ }
+  
+ #fotografia-de-articol  {
+    padding-bottom: 72%;
+ }
+    
+ #materiale-de-comunicare {
+    padding-bottom: 77%;
+ }
+  
+ #materiale-cu-fotografie {
+    padding-bottom: 77%;
+ }  
+  
+ #materiale-fara-fotografie {
+    padding-bottom: 78%;
+ }
+
+  
+}
+  
+  
+
+
+
+
+/*********---------
+min-width: 3001px
+max-width: 3400px
+---------*********/
+
+/******* optimised for bigger screens *****/
+
+  
+@media only screen and (min-width: 3001px) 
+    and (max-width: 3400px) {
+  
+     
+#concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #exemple-materiale {
+    width: 165%;
+    padding-bottom: 60%;  
+ }       
+  
+ #paleta-secundara {
+    padding-bottom: 66%;
+ }
+  
+ #fotografia-de-articol  {
+    padding-bottom: 64%;
+ }
+    
+ #materiale-de-comunicare {
+    padding-bottom: 68%;
+ }
+  
+ #materiale-cu-fotografie {
+    padding-bottom: 69%;
+ }  
+  
+ #materiale-fara-fotografie {
+    padding-bottom: 70%;
+ }
+  
+}  
+  
+
+  
+/*********---------
+min-width: 2701px
+max-width:3000px
+---------*********/
+
+/******* optimised for bigger screens *****/
+
+  
+@media only screen and (min-width: 2701px) 
+    and (max-width: 3000px) {
+  
+     
+#concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #exemple-materiale {
+    width: 165%;
+    padding-bottom: 60%;  
+ }       
+  
+ #paleta-secundara {
+    padding-bottom: 66%;
+ }
+  
+ #fotografia-de-articol  {
+    padding-bottom: 64%;
+ }
+    
+ #materiale-de-comunicare {
+    padding-bottom: 68%;
+ }
+  
+ #materiale-cu-fotografie {
+    padding-bottom: 69%;
+ }  
+  
+ #materiale-fara-fotografie {
+    padding-bottom: 70%;
+ }
+
+}
+  
+  
+  
+/*********---------
+min-width: 2301px
+max-width: 2700px
+---------*********/
+
+/******* optimised for bigger screens *****/
+
+  
+@media only screen and (min-width: 2301px) 
+    and (max-width: 2700px) {
+  
+     
+#concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #exemple-materiale {
+    width: 165%;
+    padding-bottom: 60%;  
+ }       
+  
+ #paleta-secundara {
+    padding-bottom: 66%;
+ }
+  
+ #fotografia-de-articol  {
+    padding-bottom: 64%;
+ }
+    
+ #materiale-de-comunicare {
+    padding-bottom: 68%;
+ }
+  
+ #materiale-cu-fotografie {
+    padding-bottom: 69%;
+ }  
+  
+ #materiale-fara-fotografie {
+    padding-bottom: 70%;
+ }
+
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+/*********---------
+min-width: 2001px
+max-width:2300px
+---------*********/
+
+/******* optimised for bigger screens *****/
+
+  
+@media only screen and (min-width: 2001px) 
+    and (max-width: 2300px) {
+  
+     
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #exemple-materiale{
+      width: 150%;
+      padding-bottom: 54%;    
+   }         
+    
+   #paleta-secundara {
+      padding-bottom: 60%;
+   }
+    
+   #fotografia-de-articol  {
+      padding-bottom: 56%;
+   }
+    
+   #materiale-de-comunicare {
+      padding-bottom: 64%;
+   }
+    
+   #materiale-cu-fotografie {
+      padding-bottom: 64%;
+   }  
+    
+   #materiale-fara-fotografie {
+      padding-bottom: 64%;
+   }
+    
+}
+  
+
+  
+  
+/*********---------
+min-width: 1750px
+max-width: 2000px
+---------*********/
+
+/******* optimised for bigger screens *****/
+
+  
+@media only screen and (min-width: 1750px) 
+    and (max-width: 2000px) {
+  
+     
+  #concept, #proportii, #variante-principale, #varianta-secundara, #variante-monocrome, #spatiul-de-siguranta,  #dimensiunea-minima, #interdictii, #paleta-principala, #paleta-secundara, #restrictii, #familia-principala, #familia-secundara, #elemente-grafice-terenul, #fotografia-de-articol, #fotografia-de-articol-exemple, #fotografia-folosita-in-promovare, #materiale-de-comunicare, #materiale-cu-fotografie, #materiale-fara-fotografie, #exemple-materiale {
+      width: 115%;
+      padding-bottom: 44%;
+   }
+    
+   #materiale-fara-fotografie {
+      padding-bottom: 46%;
+   }
+    
+    
+}
+  
+    
+    
+
+
+
+  
+/*********---------
+min-width: 0px
+max-width: 450px
+---------*********/
+
+/******* better fit subtitles at small resolutions *****/
+
+
+  
+@media only screen and (min-width: 0px) 
+    and (max-width: 450px) {
+  
+  .TOP-left {
+    width: 100%;
+  }
+  
+  p.slide-subtitle {
+    width: 90%;
+  }
+}
+
+
+
+
+  
+/*********---------
+min-width: 0px
+max-width: 750px
+---------*********/
+
+/******* better fit final images on small resolutions *****/
+
+
+  
+@media only screen and (min-width: 0px) 
+    and (max-width: 750px) {
+  
+  .whole a {
+    max-width: 100%;
+  }
+}
+
+
+
+  
+/*********---------
+min-width: 0px
+max-width: 750px
+---------*********/
+
+/******* image opens in link *****/
+
+  
+@media only screen and (min-width: 0px) 
+    and (max-width: 750px) {
+
+  #overlay {
+    display:none;
+    visibility:none;
+  }
+  
+  #overlay img {
+    display:none;
+    visibility:none;
+  }
+  
+  #overlay p {
+    display:none;
+    visibility:none;
+  }
+    
+}
+
+  
+/*********---------
+min-width: 751px
+max-width: 900px
+---------*********/
+
+/******* image opens in lightbox *****/
+
+    
+  @media only screen and (min-width: 751px) 
+      and (max-width: 900px) {
+  
+  #overlay {
+    background:rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    display:none;
+    text-align:center;
+    z-index: 2000;
+  }
+  
+  #overlay img {
+    height: 60vh;
+    margin-top: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  #overlay p {
+    color: white; 
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+    
+}
+
+
+
+
+
+/*********---------
+min-width: 901px
+max-width: 6000px
+---------*********/
+
+/******* image opens in lightbox *****/
+
+  
+@media only screen and (min-width: 901px) 
+    and (max-width: 6000px) {
+
+  #overlay {
+    background:rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    display:none;
+    text-align:center;
+    z-index: 2000;
+  
+  }
+  
+  #overlay img {
+    height: 75vh;
+    margin-top: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  #overlay p {
+    color: white; 
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+    
+}
+
