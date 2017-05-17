@@ -1339,9 +1339,7 @@ max-width: 1099px
   }
 
   .hidden p {
-    color: white;
-    font-size:0.1em;
-    width:5%;
+    display:none;
   }
 
   #slide {
